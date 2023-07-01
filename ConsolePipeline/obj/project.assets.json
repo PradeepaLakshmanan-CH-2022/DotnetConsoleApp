@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\ConsolePipeline.csproj",
+      "projectUniqueName": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\ConsolePipeline.csproj",
       "projectName": "ConsolePipeline",
-      "projectPath": "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\ConsolePipeline.csproj",
+      "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\ConsolePipeline.csproj",
       "packagesPath": "C:\\Users\\Pradeepa.lakshmanan\\.nuget\\packages\\",
-      "outputPath": "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\obj\\",
+      "outputPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pradeepa.lakshmanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
