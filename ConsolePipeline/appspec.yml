@@ -1,0 +1,20 @@
+version: 0.0
+os: windows
+
+files:
+  - source: ConsoleApplication/DotnetConsoleApp/ConsolePipeline
+    destination: C:\ConsolePipeline
+
+hooks:
+  ApplicationStop:
+    - location: scripts/stop_application.ps1
+      timeout: 300
+      runas: Administrator
+  AfterInstall:
+    - location: scripts/install_dependencies.ps1
+      timeout: 300
+      runas: Administrator
+  ApplicationStart:
+    - location: scripts/start_application.ps1
+      timeout: 300
+      runas: Administrator
