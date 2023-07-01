@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\ConsolePipeline.csproj": {}
+    "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\ConsolePipeline.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\ConsolePipeline.csproj": {
+    "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\ConsolePipeline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\ConsolePipeline.csproj",
+        "projectUniqueName": "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\ConsolePipeline.csproj",
         "projectName": "ConsolePipeline",
-        "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\ConsolePipeline.csproj",
+        "projectPath": "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\ConsolePipeline.csproj",
         "packagesPath": "C:\\Users\\Pradeepa.lakshmanan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ConsolePipeline\\ConsolePipeline\\obj\\",
+        "outputPath": "C:\\ConsoleApplication\\DotnetConsoleApp\\ConsolePipeline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pradeepa.lakshmanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
