@@ -1,9 +1,12 @@
 version: 0.0
 os: windows
 files:
-  - source: \index.html
-    destination: C:\inetpub\wwwroot
+  - source: .
+    destination: C:\MyConsoleFolder
 hooks:
   BeforeInstall:
-    - location: scripts\beforeinstall.ps1
-      timeout: 900
+    - location: scripts/before-install.ps1
+      timeout: 300
+  ApplicationStart:
+    - location: scripts/application-start.ps1
+      timeout: 300
