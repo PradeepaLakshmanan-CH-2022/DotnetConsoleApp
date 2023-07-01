@@ -1,24 +1,9 @@
 version: 0.0
 os: windows
-
 files:
-  - source: /
-    destination: C:\ConsoleApplication\DotnetConsoleApp\ConsolePipeline
-
+  - source: \index.html
+    destination: C:\inetpub\wwwroot
 hooks:
   BeforeInstall:
-    - location: scripts\stop_application.ps1
-      timeout: 300
-      runas: Administrator
-  AfterInstall:
-    - location: scripts\install_dependencies.ps1
-      timeout: 300
-      runas: Administrator
-  ApplicationStart:
-    - location: scripts\start_application.ps1
-      timeout: 300
-      runas: Administrator
-  ValidateService:
-    - location: scripts\validate_service.ps1
-      timeout: 300
-      runas: Administrator
+    - location: \beforeinstall.ps1
+      timeout: 900
